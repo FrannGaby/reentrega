@@ -1,0 +1,809 @@
+body {
+    margin: 0%;
+    background-color: rgb(245, 237, 237);
+    font-family:'Comic Neue', cursive;
+    display: block
+  }
+     /* imagen perteneciente al futuro menu*/
+  
+    .menu {
+     overflow: hidden;  
+     background-color: #333;
+  }
+    .menu a {
+  
+    float:left;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  /*BANNER PRESENTACION*/
+    .imagen{ 
+      width: 100%;
+      height: fit-content;
+    
+    }
+  
+  /*H*/
+    h2{
+    text-align: center;
+    color: rgb(109, 170, 223);
+     font-size: 35px;}
+    
+     article {
+    text-align: center;
+    font-family: bold, Helvetica, sans-serif;}
+    
+    
+    table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 60%;}
+    
+    th,tr {
+    text-align: left;
+    padding: 8px;}
+    
+    th {
+    background-color: #97afe4;
+    color: white;}
+   
+    /*esta imagen pertenece a Nosotros*/
+   .nosotros{
+     text-align: left;
+    padding-bottom: 50px;  
+    padding-top: 50px;  
+   }
+
+    iframe{
+        width: 500px;
+        height: 320px;
+         float: left;
+         padding-right: 5px;
+         padding-left: 5px}
+    
+     p{
+    text-align: left;
+    font-family: bold, Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-left: 8px;}
+
+
+
+   /*FORMULARIO*/
+  .Contacto{
+      display:flex;
+      flex-direction: row;
+      justify-content: left;
+      padding-left: 10vw;
+      margin-bottom: 50px;
+      background-color:#2790b1;
+      padding-bottom: 50px;
+      padding-top: 30px;
+  }
+  h3{
+  text-align: center;
+    color: rgb(14, 15, 15);
+     font-size: 35px;}
+
+   input[type=text], select {
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+  
+  input[type=email], select {
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+
+  input[type=celular], select {
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+
+  input[type=submit] {
+    width: 10vw;
+    background-color: #0c0d0e;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+
+label{
+  color:rgb(12, 11, 11);
+}
+
+#carta{
+display: flex;
+justify-content: center;
+padding-top: 10%;
+    
+}
+#datos{
+  background-color: #2790b1;
+}
+
+.mapa{
+  height:10vh;
+  padding-bottom:7px;
+  
+}
+.correo{
+  height:10vh;
+  padding-bottom:7px;
+}
+.telefono{
+  height:10vh;
+  padding-bottom:7px;
+
+}
+.social{
+  display: flex;
+}
+.social i{
+  font-size: 10vh;
+  
+  
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+ 
+
+    .novedades h1{
+      color: rgb(94, 168, 241);
+      text-align: center;
+      font-size: 40px;
+      animation-duration: 2s;
+      margin-top: 10%;
+    }
+    @keyframes aparece {
+      0% { 
+        opacity: 0;}
+      100% {
+      opacity: 1;  
+    }
+  }
+    .novedades p{
+      text-align: center;
+      color: rgb(94, 168, 241);
+      font-family:'Comic Neue', cursive;
+    }
+
+    /*NUEVA HOJA DE HTML */
+
+    .paginaProductos{
+    background-color: snow;
+    display: block
+    }
+    .usuario{
+      width: 30px;
+      position: relative;
+      padding-right: 10% ;
+    }
+    .carro{
+      width: 40px;
+      position: relative;
+      padding-right: 10%
+
+    }
+
+    /*DESTACADOS*/
+    
+
+    .Productos{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 0fr 0fr;
+      grid-row-gap: 0px;
+      justify-content: center;
+      border-bottom: 10%;
+    }
+    .producto1 img{
+      max-width:90%;
+      height: 28vw;
+      padding-left: 25px;
+      
+    }
+    .producto2 img {
+    max-width:90%;
+    height: 28vw;
+    padding-left: 15px;
+  
+    }
+  
+    .producto3 img{
+    max-width:90%;
+    height: 28vw;
+    padding-left: 5px;
+   }
+   
+  .Productos h1{
+    text-align: center;
+    color: #97afe4;
+  }
+  
+  .Productos p{
+    text-align: center;
+    color: #97afe4;;
+  }
+  /*MAS VENDIDOS*/
+
+
+   .mas{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 0fr 0fr;
+      grid-row-gap: 0px;
+      justify-content: center;
+      margin-top:5% ;
+   }
+
+  .mas-Vendidos h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(94, 168, 241);
+    margin-top:5% ;
+  }
+  .mas-Vendidos p{
+    text-align: center;
+    color: rgb(94, 168, 241);
+    font-family:'Comic Neue', cursive;
+  }
+
+  .mas1 img{
+    max-width:40vw;
+    height: 50vh;
+    padding-left: 10vh;
+    padding-right: 45px;
+    transition: 1s;
+  
+ }
+ .mas1 :hover{
+  transform: scale(1.1);
+
+ }
+
+  .mas2 img {
+    max-width:45vw;
+    height: 50vh;
+    position: center;
+    transition: 1s;
+    padding-left: 10%;
+  }
+
+  .mas2 :hover{
+    transform: scale(1.1);
+  }
+
+  .mas3 img{
+    max-width:28vw;
+    height: 50vh;
+    transition: 1s;
+    padding-right: 35px;
+ }
+ .mas3 :hover{
+ transform:scale(1.1) ;
+}
+ .datos{
+   background-color: black;
+   
+ }
+.datos h1{
+  color: snow;
+  font-size: 18px;
+  text-align: center;
+}
+#carrusel img{
+  height: 35vw;
+  width: 35vw;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+#carrusel p{
+  text-align: center;
+  color: #000000;
+}
+#carrusel h5{
+text-align: center;
+color: #000000;
+font-size: 45px
+}
+.ofertas{
+  display: grid;
+  padding-top: 30px;
+  padding-right: 30px
+}
+
+.ofertas img{
+  width:100vw;
+  height: 40vh;
+  
+}
+.cards{
+ display: flex
+}
+
+.card1 {
+  display:flex;
+  flex-direction: row;
+  width:70vh;
+  height: 50vh;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5% ;
+}
+.card-img{
+  width:40vh;
+}
+.card2{display:flex;
+  flex-direction: row;
+  width:70vh;
+  height: 50vh;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5% ;
+}
+.card-img2{
+  width:30vh;
+  margin-top: 10%;
+}
+.card3{display:flex;
+  flex-direction: row;
+  width:70vh;
+  height: 50vh;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5% ;
+}
+.card-img3{
+  width:60vh;
+  margin-top: 10%;
+  height: 40vh;
+}
+.card4{display:flex;
+  flex-direction: row;
+  width:90vh;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5% ;
+}
+.card-img4{
+  width:60vh;
+  margin-top: 10%;
+  height: 40vh;}
+
+.pago{
+background-color: snow;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.pago img{
+  width: 6vh;
+  text-align: center;
+}
+
+.Registro{
+  display:grid;
+  flex-direction: column;
+  justify-content: center;
+  float: center;
+  padding-left: 10vw;
+  margin-bottom: 10px;
+  background-color:aqua;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+input[type=email], select {
+width: 20vw;
+padding: 12px 20px;
+margin: 8px 0;
+display: flex;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;}
+
+input[type=Password], select {
+  width: 20vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+
+
+
+
+label{
+color:rgb(12, 11, 11);
+}
+
+
+
+
+@media (min-width: 0px) and (max-width:350px){
+  body {
+    margin: 0%;
+    background-color: rgb(245, 237, 237);
+    font-family:'Comic Neue', cursive;
+    display: list-item;
+  }
+
+  .paginaProductos{
+      margin: 0%;
+      background-color: rgb(245, 237, 237);
+      font-family:'Comic Neue', cursive;
+      display: list-item;
+  }
+
+ .menu a {
+   float:left;
+   color: azure;
+   text-align: left;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 10px;
+ }
+ .menu img{
+   width: 1vh ;
+ }
+
+ .imagen{ 
+  width: 100%;
+  height: fit-content;
+
+}
+.Contacto{
+  
+  display: grid;
+  grid-column: auto;
+  margin-bottom: 10px;
+  background-color:#2790b1;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+ p{
+   font-size: x-small;
+ }
+
+h3,h2{
+text-align: center;
+color: rgb(14, 15, 15);
+font-size: 10px;}
+
+input[type=text], select {
+width: 60vw;
+padding: 1px 2px;
+margin: 8px 0;
+display: flex;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;}
+
+input[type=email], select {
+width: 60vw;
+padding: 1px 2px;
+margin: 8px 0;
+display: flex;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;}
+
+input[type=celular], select {
+width: 60vw;
+padding: 1px 2px;
+margin: 8px 0;
+display: flex;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;}
+
+input[type=submit] {
+width: 60vw;
+background-color: #0c0d0e;
+color: white;
+display: flex;
+padding: 1px 2px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;}
+
+label{
+color:rgb(12, 11, 11);
+}
+
+.ofertas{
+  display: flex;
+  padding-top: 30px;
+  padding-right: 30px
+}
+
+.ofertas img{
+  width:220vw;
+  height: 40vh;
+  
+}
+    
+#datos{
+  background-color: #2790b1;
+  width: fit-content;
+}
+
+#carta{
+  display: grid;
+  justify-content: center;
+  padding-top: 10%;
+      
+  }
+  #datos{
+    background-color: #2790b1;
+  }
+  
+  .mapa{
+    height:8vh;
+    padding-bottom:7px;
+    position: left;
+    
+  }
+  .correo{
+    height:8vh;
+    padding-bottom:7px;
+  }
+  .telefono{
+    height:11vh;
+    padding-bottom:7px;
+  
+  }
+  .social{
+    display: grid;
+  }
+  .social i{
+    font-size: 5px;
+    
+    
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+  }
+
+  .cards{
+   display:flex;
+   flex-direction: column;
+   flex-flow: wrap;
+   }
+
+   .cards p{
+    font-size: 4px;}
+
+   .card-title{
+     font-size: x-small;
+   }
+   .card-body{
+     font-size: x-small;
+     margin-top: 10%;
+   }
+  
+  /*Dispositivo XS*/}
+    @media (max-width: 575.98px) {  
+
+    .menu {
+    overflow: hidden;  
+    background-color: #333;
+ }
+   .menu a {
+ 
+   float:left;
+   color: rgb(45, 124, 124);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ 
+
+  .portada h1{text-align: center;
+  color: rgb(220, 228, 235);}
+
+  iframe{
+  width: 100px;
+  height: 100px;
+   float: center;
+   padding-right: 5px;
+   padding-left: 5px}
+
+
+   .mas{
+
+    display:inline-block;
+    position: center;
+     
+   }
+
+   .mas1 img {
+    max-width:70vw;
+    height: 60vh;
+    padding-left: 2px;
+    padding-right: 2px;
+    transition: 1s;
+  
+ }
+  .mas2 img {
+    border-top: rgb(109, 170, 223);
+    max-width:70vw;
+    height: 60vh;
+    position: center;
+    transition: 1s;
+    padding-left: 10%;
+  }
+
+  .mas3 img{
+    max-width:70vw;
+    height: 60vh;
+    transition: 1s;
+    padding-right: 3px;
+ }
+ .cards p{
+   font-size: 12px;
+ }
+
+.pago{
+background-color: skyblue;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.pago img{
+  width: 6vh;
+  text-align: center;
+}
+
+input[type=Password], select {
+  width: 60vw;
+  padding: 1px 2px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+  
+
+}
+  @media (min-width: 517px) and (max-width:980px) { 
+     .menu {
+    overflow: hidden;  
+    background-color: #333;
+ }
+   .menu a {
+ 
+   float:left;
+   color: azure;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 10px;
+ }
+ 
+  iframe{
+    width: 300px;
+    height: 200px;
+     float: left;
+     padding-right: 5px;
+     padding-left: 5px}
+
+     input[type=text], select {
+      width: 90vw;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: flex;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;}
+      
+      input[type=email], select {
+      width: 90vw;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: flex;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;}
+      
+      input[type=celular], select {
+      width: 90vw;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: flex;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;}
+      
+      input[type=submit] {
+      width: 50vw;
+      background-color: #0c0d0e;
+      color: white;
+      display: flex;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;}
+      
+      label{
+      color:rgb(12, 11, 11);
+      }
+      .col{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+      }
+    
+      .cards{
+       display:flex;
+       flex-direction: column;
+       flex-flow: wrap;
+       }
+    
+       .cards p{
+        font-size: 4px;}
+    
+       .card-title{
+         font-size: x-small;
+       }
+       .card-body{
+         font-size: large;
+         margin-top: 10%;
+       }
+      
+
+ }
+  @media (min-width: 981px) and (max-width:10000px) {/*Dispositivo Extra large*/}
